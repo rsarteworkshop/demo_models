@@ -1,0 +1,16 @@
+/*
+ *   Converted from: platform:/resource/Pi_original/_TC.tc
+ */
+
+let tc = TCF.define(TCF.CPP_TRANSFORM);
+tc.sources = [
+    'platform:/resource/Pi_original/HelloWorld.emx#_hHWkkd7JEeCoYL7X7ju9hA'
+];
+tc.topCapsule = 'platform:/resource/Pi_original/HelloWorld.emx#_hHZA0N7JEeCoYL7X7ju9hA';
+tc.createTargetProject = true;
+tc.type = CppTransformType.Executable;
+tc.compilationMakeCommand = 'mingw32-make';
+tc.compilationMakeType = MakeType.GNU_make;
+tc.compileArguments = '';
+tc.targetConfiguration = 'WinT.x64-MinGw-8.1.0';
+tc.targetProject = '/Pi__original_target';
