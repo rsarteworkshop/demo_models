@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>Pi_original</name>
-	<comment></comment>
-	<projects>
-		<project>CppModelExec</project>
-	</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>com.ibm.xtools.umldt.core.internal.builders.UMLDevelopmentBuilder</name>
