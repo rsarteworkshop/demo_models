@@ -2,7 +2,6 @@ let tc = TCF.define(TCF.CPP_TRANSFORM);
 tc.sources = [
     'platform:/resource/Pi_original/PiComputer.emx#_hHWkkd7JEeCoYL7X7ju9hA',
 ];
-tc.compilationMakeArguments = '';
 tc.compilationMakeType = MakeType.MS_nmake;
 tc.createTargetProject = true;
 tc.targetConfiguration = 'WinT.x86-VisualC++-17.0';
