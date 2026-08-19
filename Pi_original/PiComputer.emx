@@ -83,7 +83,7 @@
             <styles xmi:type="notation:SortingStyle" xmi:id="_HgrEyRaBEeGhjL_m-r2Yvw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_HgrEyhaBEeGhjL_m-r2Yvw"/>
           </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgoogRaBEeGhjL_m-r2Yvw" x="1848" y="8844"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgoogRaBEeGhjL_m-r2Yvw" x="1585" y="8876"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_ws7tUBmYEeGTGJWVAxHCFA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_ws87cBmYEeGTGJWVAxHCFA" type="ImageCompartment">
@@ -431,19 +431,19 @@
               <details xmi:id="_hHiKwd7JEeCoYL7X7ju9hA" key="Initial"/>
             </eAnnotations>
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_hH4JAN7JEeCoYL7X7ju9hA" name="Initial">
-              <language>C++</language>
-              <body>int noOfIterations = 100;&#xD;
-&#xD;
-Log::out &lt;&lt; &quot;Starting computation of pi using the Madhava's formula with &quot; &lt;&lt; noOfIterations &lt;&lt; &quot; iterations.&quot; &lt;&lt; Log::endl;&#xD;
-computer.compute(noOfIterations).send();&#xD;
-</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[int noOfIterations = 100;
+
+Log::out << "Starting computation of pi using the Madhava's formula with " << noOfIterations << " iterations." << Log::endl;
+computer.compute(noOfIterations).send();
+]]></body>
             </effect>
           </transition>
           <transition xmi:id="_W5awsN9oEeCEzIVzLZLXAA" name="computation ready" source="_hHg8oN7JEeCoYL7X7ju9hA" target="_W4aEEN9oEeCEzIVzLZLXAA">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_kW6zcN9vEeCGWqJNiDZjig" name="Effect">
-              <language>C++</language>
-              <body>Log::out &lt;&lt; &quot;Result is: &quot; &lt;&lt; std::setprecision (15) &lt;&lt; *rtdata &lt;&lt; Log::endl;&#xD;
-</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[Log::out << "Result is: " << std::setprecision (15) << *rtdata << Log::endl;
+]]></body>
             </effect>
             <trigger xmi:id="_S_NiIN-uEeC6o5J5oD6slQ" name="" event="_SpB4kN9zEeCGWqJNiDZjig" port="_leOTYN9nEeCEzIVzLZLXAA"/>
           </transition>
@@ -745,37 +745,37 @@ computer.compute(noOfIterations).send();&#xD;
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_3DpcYEKYEeGsHKadCldUZg"/>
           <transition xmi:id="_D2l0cN9yEeCGWqJNiDZjig" name="request received" source="_iKjYoN9mEeCEzIVzLZLXAA" target="_Ox1qIN-rEeC6o5J5oD6slQ">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_OJPwAN9yEeCGWqJNiDZjig" name="Effect">
-              <language>C++</language>
-              <body>remainingIterations = *rtdata - 1;&#xD;
-mul.getIncrement(remainingIterations).send();</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[remainingIterations = *rtdata - 1;
+mul.getIncrement(remainingIterations).send();]]></body>
             </effect>
             <trigger xmi:id="_fnQ0IN90EeCGWqJNiDZjig" name="" event="_I5q3UN9zEeCGWqJNiDZjig" port="_CPrrkN9zEeCGWqJNiDZjig"/>
           </transition>
           <transition xmi:id="__kePcN-nEeC6o5J5oD6slQ" name="no" source="_wUO_kN-nEeC6o5J5oD6slQ" target="_iKjYoN9mEeCEzIVzLZLXAA" guard="_KF4YsN-oEeC6o5J5oD6slQ">
             <ownedRule xmi:id="_KF4YsN-oEeC6o5J5oD6slQ">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_KF4_wN-oEeC6o5J5oD6slQ" name="Guard">
-                <language>C++</language>
-                <body>return remainingIterations == 0 ? RTTrue : RTFalse; // TODO</body>
+                <language><![CDATA[C++]]></language>
+                <body><![CDATA[return remainingIterations == 0 ? RTTrue : RTFalse; // TODO]]></body>
               </specification>
             </ownedRule>
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_fwC_EN-oEeC6o5J5oD6slQ" name="Effect">
-              <language>C++</language>
-              <body>// Computation completed&#xD;
-result = sqrt(12) * result;&#xD;
-request_port.result(result).send();</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[// Computation completed
+result = sqrt(12) * result;
+request_port.result(result).send();]]></body>
             </effect>
           </transition>
           <transition xmi:id="_OyGI0N-rEeC6o5J5oD6slQ" name="compute next increment" source="_wUO_kN-nEeC6o5J5oD6slQ" target="_Ox1qIN-rEeC6o5J5oD6slQ" guard="_ZOcy8N-rEeC6o5J5oD6slQ">
             <ownedRule xmi:id="_ZOcy8N-rEeC6o5J5oD6slQ">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_ZOdaAN-rEeC6o5J5oD6slQ" name="Guard">
-                <language>C++</language>
-                <body>else</body>
+                <language><![CDATA[C++]]></language>
+                <body><![CDATA[else]]></body>
               </specification>
             </ownedRule>
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_SkyXUN-rEeC6o5J5oD6slQ" name="Effect">
-              <language>C++</language>
-              <body>remainingIterations--;&#xD;
-mul.getIncrement(remainingIterations).send();</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[remainingIterations--;
+mul.getIncrement(remainingIterations).send();]]></body>
             </effect>
           </transition>
           <transition xmi:id="_3o9I4EKYEeGsHKadCldUZg" name="Initial" source="_3DpcYEKYEeGsHKadCldUZg" target="_iKjYoN9mEeCEzIVzLZLXAA">
@@ -785,22 +785,22 @@ mul.getIncrement(remainingIterations).send();</body>
           </transition>
           <transition xmi:id="_UJHfQEKwEeGsHKadCldUZg" name="increment computed" source="_E4sNAN-mEeC6o5J5oD6slQ" target="_wUO_kN-nEeC6o5J5oD6slQ">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_WAFn8EKwEeGsHKadCldUZg" name="Effect">
-              <language>C++</language>
-              <body>double inc = *rtdata;&#xD;
-printDouble(remainingIterations, inc);&#xD;
-result += *rtdata;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[double inc = *rtdata;
+printDouble(remainingIterations, inc);
+result += *rtdata;]]></body>
             </effect>
           </transition>
         </region>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qnc2IOBbEeCHj4o53nXO3g" name="printDouble" specification="_kEoCUOBbEeCHj4o53nXO3g">
-        <language>C++</language>
-        <body>	// Log using a log port (traditional logging API)&#xD;
-	log.show(p1);&#xD;
-	log.show(&quot; &quot;);&#xD;
-	log.log(result);&#xD;
-&#xD;
-</body>
+        <language><![CDATA[C++]]></language>
+        <body><![CDATA[	// Log using a log port (traditional logging API)
+	log.show(p1);
+	log.show(" ");
+	log.log(result);
+
+]]></body>
       </ownedBehavior>
       <ownedOperation xmi:id="_kEoCUOBbEeCHj4o53nXO3g" name="printDouble" visibility="protected" method="_qnc2IOBbEeCHj4o53nXO3g">
         <ownedParameter xmi:id="_BYGRgOBeEeCHj4o53nXO3g" name="p1">
@@ -895,10 +895,10 @@ result += *rtdata;</body>
           </transition>
           <transition xmi:id="_hmiNUN-tEeC6o5J5oD6slQ" name="multiply" source="_jiRZgd9mEeCEzIVzLZLXAA" target="_jiRZgd9mEeCEzIVzLZLXAA">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_ynB54N-tEeC6o5J5oD6slQ" name="Effect">
-              <language>C++</language>
-              <body>int k = *rtdata;&#xD;
-double inc = pow(-3, -k) / (2 * k + 1);&#xD;
-result.returnIncrement(inc).send();</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[int k = *rtdata;
+double inc = pow(-3, -k) / (2 * k + 1);
+result.returnIncrement(inc).send();]]></body>
             </effect>
             <trigger xmi:id="_vJrCMN-tEeC6o5J5oD6slQ" name="" event="_-MtI4N9zEeCGWqJNiDZjig" port="_vhifgN90EeCGWqJNiDZjig"/>
           </transition>
@@ -1032,14 +1032,21 @@ result.returnIncrement(inc).send();</body>
   <UMLRealTime:RTPort xmi:id="_vhnYAN90EeCGWqJNiDZjig" isConjugate="true" base_Port="_vhifgN90EeCGWqJNiDZjig"/>
   <CppPropertySets:GeneralAttributeProperties xmi:id="_g4J2oN-oEeC6o5J5oD6slQ" base_Property="_gKCMYN-oEeC6o5J5oD6slQ"/>
   <CppPropertySets:GeneralCapsuleProperties xmi:id="_tIDMoOBFEeCgyNo2rgH7Mg" base_Class="_hHZA0N7JEeCoYL7X7ju9hA">
-    <headerPreface xmi:id="_PRH2AO7ZEeal0ZLQF-jAAg" body="#include &lt;stdio.h>&#xD;&#xA;#include &lt;iomanip>"/>
+    <headerPreface xmi:id="_PRH2AO7ZEeal0ZLQF-jAAg">
+      <body><![CDATA[#include <stdio.h>
+#include <iomanip>]]></body>
+    </headerPreface>
   </CppPropertySets:GeneralCapsuleProperties>
   <CppPropertySets:GeneralCapsuleProperties xmi:id="_PKfAIOBaEeCHj4o53nXO3g" base_Class="_iDa14N9mEeCEzIVzLZLXAA">
-    <headerPreface xmi:id="_PRJEIe7ZEeal0ZLQF-jAAg" body="#include &lt;math.h>"/>
+    <headerPreface xmi:id="_PRJEIe7ZEeal0ZLQF-jAAg">
+      <body><![CDATA[#include <math.h>]]></body>
+    </headerPreface>
   </CppPropertySets:GeneralCapsuleProperties>
   <UMLRealTime:RTPort xmi:id="_jh4hoOBbEeCHj4o53nXO3g" isWired="false" base_Port="_jh2FYOBbEeCHj4o53nXO3g"/>
   <CppPropertySets:GeneralCapsuleProperties xmi:id="_T1M-oOBhEeCusv8wT76HbA" base_Class="_jiKEwN9mEeCEzIVzLZLXAA">
-    <headerPreface xmi:id="_PRMHce7ZEeal0ZLQF-jAAg" body="#include &lt;math.h>"/>
+    <headerPreface xmi:id="_PRMHce7ZEeal0ZLQF-jAAg">
+      <body><![CDATA[#include <math.h>]]></body>
+    </headerPreface>
   </CppPropertySets:GeneralCapsuleProperties>
   <UMLRealTime:RTConnector xmi:id="_8fAFMBd_EeGTGJWVAxHCFA" base_Connector="_8eOpIBd_EeGTGJWVAxHCFA"/>
   <UMLRealTime:RTRedefinableElement xmi:id="_Vbd5sC1AEeGQP5YfS1luXw" base_RedefinableElement="_iKbc0N9mEeCEzIVzLZLXAA"/>
