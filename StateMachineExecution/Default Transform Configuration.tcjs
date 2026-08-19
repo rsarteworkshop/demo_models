@@ -1,14 +1,9 @@
-/*
- *   Converted from: platform:/resource/StateMachineExecution/Default Transform Configuration.tc
- */
-
 let tc = TCF.define(TCF.CPP_TRANSFORM);
 tc.sources = [
-    'platform:/resource/StateMachineExecution/CPPModel.emx#_M-AnwEjLEemLXOU7GQIM0w'
+    'platform:/resource/StateMachineExecution/CPPModel.emx#_M-AnwEjLEemLXOU7GQIM0w',
 ];
+tc.compilationMakeType = MakeType.MS_nmake;
 tc.createTargetProject = true;
+tc.targetConfiguration = 'WinT.x86-VisualC++-17.0';
 tc.targetProject = '/StateMachineExecution_target';
-tc.compilationMakeCommand = 'mingw32-make';
-tc.compilationMakeType = MakeType.GNU_make;
-tc.targetConfiguration = 'WinT.x64-MinGw-8.1.0';
 tc.topCapsule = 'platform:/resource/StateMachineExecution/CPPModel.emx#_Pe_WwEjLEemLXOU7GQIM0w';

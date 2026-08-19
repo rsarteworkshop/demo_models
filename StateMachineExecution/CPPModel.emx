@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--HCL RealTime Software Tooling 10.3.0-->
+<!--DevOps Model RealTime 12.1.7-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="RTist Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets? http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets? http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
   <uml:Package xmi:id="_M-AnwEjLEemLXOU7GQIM0w" name="CPPModel">
     <eAnnotations xmi:id="_M-AnwUjLEemLXOU7GQIM0w" source="uml2.diagrams" references="_M-AnwkjLEemLXOU7GQIM0w">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_M-AnwkjLEemLXOU7GQIM0w" type="Class" name="Main">
@@ -72,7 +72,7 @@
                       <children xmi:type="notation:BasicDecorationNode" xmi:id="_qX1BcUjLEemLXOU7GQIM0w" type="Parent"/>
                       <children xmi:type="notation:ListCompartment" xmi:id="_qX1ogEjLEemLXOU7GQIM0w" visible="false" type="Activities"/>
                       <children xmi:type="notation:ListCompartment" xmi:id="_qX1ogUjLEemLXOU7GQIM0w" visible="false" type="InternalTransitionCompartment"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qX0aYUjLEemLXOU7GQIM0w" x="679" y="1359"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qX0aYUjLEemLXOU7GQIM0w" x="242" y="1291"/>
                     </children>
                     <children xmi:type="umlnotation:UMLShape" xmi:id="_zZRz0EjLEemLXOU7GQIM0w" element="_zZQlsEjLEemLXOU7GQIM0w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                       <children xmi:type="notation:DecorationNode" xmi:id="_zZRz0kjLEemLXOU7GQIM0w" type="ImageCompartment">
@@ -93,7 +93,7 @@
                           <children xmi:type="notation:BasicDecorationNode" xmi:id="_mUyNVkjMEemLXOU7GQIM0w" type="Parent"/>
                           <children xmi:type="notation:ListCompartment" xmi:id="_mUyNV0jMEemLXOU7GQIM0w" visible="false" type="Activities"/>
                           <children xmi:type="notation:ListCompartment" xmi:id="_mUyNWEjMEemLXOU7GQIM0w" visible="false" type="InternalTransitionCompartment"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mUyNUUjMEemLXOU7GQIM0w" x="1822" y="1163"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mUyNUUjMEemLXOU7GQIM0w" x="1705" y="540"/>
                         </children>
                         <children xmi:type="umlnotation:UMLShape" xmi:id="_BBqDIEjOEemLXOU7GQIM0w" element="_BBoN8EjOEemLXOU7GQIM0w" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
                           <children xmi:type="notation:DecorationNode" xmi:id="_BBqqMEjOEemLXOU7GQIM0w" type="NameLabel">
@@ -102,7 +102,7 @@
                             <children xmi:type="notation:BasicDecorationNode" xmi:id="_BBqqNEjOEemLXOU7GQIM0w" type="Parent"/>
                             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BBqqMUjOEemLXOU7GQIM0w" y="-149"/>
                           </children>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BBqDIUjOEemLXOU7GQIM0w" x="361" y="1290"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BBqDIUjOEemLXOU7GQIM0w" x="120" y="223"/>
                         </children>
                       </children>
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_pfHT8EjPEemLXOU7GQIM0w" element="_pfGs4EjPEemLXOU7GQIM0w" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -289,44 +289,44 @@
             <connectionPoint xmi:id="_7Rzu8EjOEemLXOU7GQIM0w" kind="exitPoint"/>
             <connectionPoint xmi:id="_Kl3H0EjPEemLXOU7GQIM0w" kind="entryPoint"/>
             <entry xmi:type="uml:OpaqueBehavior" xmi:id="_Pf9xsEjMEemLXOU7GQIM0w" name="Entry">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;Enter A&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "Enter A" << endl;]]></body>
             </entry>
             <exit xmi:type="uml:OpaqueBehavior" xmi:id="_8ylFgEjLEemLXOU7GQIM0w" name="Exit">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;Exit A&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "Exit A" << endl;]]></body>
             </exit>
             <region xmi:id="_o00WkEjLEemLXOU7GQIM0w" name="Region1">
               <subvertex xmi:type="uml:State" xmi:id="_qXx-IEjLEemLXOU7GQIM0w" name="B">
                 <entry xmi:type="uml:OpaqueBehavior" xmi:id="_SYqdIEjMEemLXOU7GQIM0w" name="Entry">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;Enter B&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "Enter B" << endl;]]></body>
                 </entry>
                 <exit xmi:type="uml:OpaqueBehavior" xmi:id="_Tfx2MEjMEemLXOU7GQIM0w" name="Exit">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;Exit B&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "Exit B" << endl;]]></body>
                 </exit>
               </subvertex>
               <subvertex xmi:type="uml:State" xmi:id="_zZQlsEjLEemLXOU7GQIM0w" name="C">
                 <connectionPoint xmi:id="_pfGs4EjPEemLXOU7GQIM0w" kind="entryPoint"/>
                 <connectionPoint xmi:id="_EqZVUEjXEemLXOU7GQIM0w" kind="entryPoint"/>
                 <entry xmi:type="uml:OpaqueBehavior" xmi:id="_W49YgEjMEemLXOU7GQIM0w" name="Entry">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;Enter C&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "Enter C" << endl;]]></body>
                 </entry>
                 <exit xmi:type="uml:OpaqueBehavior" xmi:id="_YC-7oEjMEemLXOU7GQIM0w" name="Exit">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;Exit C&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "Exit C" << endl;]]></body>
                 </exit>
                 <region xmi:id="_lU4PgEjMEemLXOU7GQIM0w" name="Region1">
                   <subvertex xmi:type="uml:State" xmi:id="_mUw_MEjMEemLXOU7GQIM0w" name="D">
                     <entry xmi:type="uml:OpaqueBehavior" xmi:id="_ov-dYEjMEemLXOU7GQIM0w" name="Entry">
-                      <language>C++</language>
-                      <body>cout &lt;&lt; &quot;Enter D&quot; &lt;&lt; endl;</body>
+                      <language><![CDATA[C++]]></language>
+                      <body><![CDATA[cout << "Enter D" << endl;]]></body>
                     </entry>
                     <exit xmi:type="uml:OpaqueBehavior" xmi:id="_p0nxQEjMEemLXOU7GQIM0w" name="Exit">
-                      <language>C++</language>
-                      <body>cout &lt;&lt; &quot;Exit D&quot; &lt;&lt; endl;</body>
+                      <language><![CDATA[C++]]></language>
+                      <body><![CDATA[cout << "Exit D" << endl;]]></body>
                     </exit>
                   </subvertex>
                   <subvertex xmi:type="uml:Pseudostate" xmi:id="_BBoN8EjOEemLXOU7GQIM0w"/>
@@ -335,8 +335,8 @@
                       <details xmi:id="_Br56AUjOEemLXOU7GQIM0w" key="Initial"/>
                     </eAnnotations>
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_Dz9ysEjOEemLXOU7GQIM0w" name="Effect">
-                      <language>C++</language>
-                      <body>cout &lt;&lt; &quot;t9&quot; &lt;&lt; endl;</body>
+                      <language><![CDATA[C++]]></language>
+                      <body><![CDATA[cout << "t9" << endl;]]></body>
                     </effect>
                   </transition>
                 </region>
@@ -344,21 +344,21 @@
               <subvertex xmi:type="uml:Pseudostate" xmi:id="_EOBiYEjXEemLXOU7GQIM0w"/>
               <transition xmi:id="_-iVy8EjLEemLXOU7GQIM0w" name="t1" kind="local" source="_o052IEjLEemLXOU7GQIM0w" target="_qXx-IEjLEemLXOU7GQIM0w">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_Ch71AEjMEemLXOU7GQIM0w" name="Effect">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;t1&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "t1" << endl;]]></body>
                 </effect>
               </transition>
               <transition xmi:id="_xu2c4EjMEemLXOU7GQIM0w" name="t5" kind="internal" source="_PfEPQEjLEemLXOU7GQIM0w" target="_PfEPQEjLEemLXOU7GQIM0w">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_GgFQIEjNEemLXOU7GQIM0w" name="Effect">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;t5&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "t5" << endl;]]></body>
                 </effect>
                 <trigger xmi:id="_TKvk4EjNEemLXOU7GQIM0w" name="" event="_S8YYwEjNEemLXOU7GQIM0w" port="_KvWs8EjNEemLXOU7GQIM0w"/>
               </transition>
               <transition xmi:id="_pfJwMEjPEemLXOU7GQIM0w" name="t8" kind="local" source="_Kl3H0EjPEemLXOU7GQIM0w" target="_pfGs4EjPEemLXOU7GQIM0w">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_r4K2AEjPEemLXOU7GQIM0w" name="Effect">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;t8&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "t8" << endl;]]></body>
                 </effect>
               </transition>
               <transition xmi:id="_EqdmwEjXEemLXOU7GQIM0w" name="t4" source="_EOBiYEjXEemLXOU7GQIM0w" target="_EqZVUEjXEemLXOU7GQIM0w">
@@ -366,20 +366,20 @@
                   <details xmi:id="_Eqe04EjXEemLXOU7GQIM0w" key="Initial"/>
                 </eAnnotations>
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_I8OW4EjXEemLXOU7GQIM0w" name="Effect">
-                  <language>C++</language>
-                  <body>cout &lt;&lt; &quot;t4&quot; &lt;&lt; endl;</body>
+                  <language><![CDATA[C++]]></language>
+                  <body><![CDATA[cout << "t4" << endl;]]></body>
                 </effect>
               </transition>
             </region>
           </subvertex>
           <subvertex xmi:type="uml:State" xmi:id="_YHKbkEjNEemLXOU7GQIM0w" name="E">
             <entry xmi:type="uml:OpaqueBehavior" xmi:id="_5QCZkEjQEemLXOU7GQIM0w" name="Entry">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;Enter E&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "Enter E" << endl;]]></body>
             </entry>
             <exit xmi:type="uml:OpaqueBehavior" xmi:id="_6SfVEEjQEemLXOU7GQIM0w" name="Exit">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;Exit E&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "Exit E" << endl;]]></body>
             </exit>
           </subvertex>
           <transition xmi:id="_PfEPQUjLEemLXOU7GQIM0w" name="Initial" source="_PfDoMUjLEemLXOU7GQIM0w" target="_o052IEjLEemLXOU7GQIM0w">
@@ -387,35 +387,35 @@
               <details xmi:id="_PfFdYUjLEemLXOU7GQIM0w" key="Initial"/>
             </eAnnotations>
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_B3qooEjPEemLXOU7GQIM0w" name="Effect">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;Initial&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "Initial" << endl;]]></body>
             </effect>
           </transition>
           <transition xmi:id="_JhzxMEjMEemLXOU7GQIM0w" name="t2" source="_JhtDgEjMEemLXOU7GQIM0w" target="_JhwG0EjMEemLXOU7GQIM0w">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_DApU0EjNEemLXOU7GQIM0w" name="Effect">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;t2&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "t2" << endl;]]></body>
             </effect>
             <trigger xmi:id="_8LnZ4EjQEemLXOU7GQIM0w" name="" event="_MN5ukEjNEemLXOU7GQIM0w" port="_KvWs8EjNEemLXOU7GQIM0w"/>
           </transition>
           <transition xmi:id="_7R9f8EjOEemLXOU7GQIM0w" name="t6" source="_7Rzu8EjOEemLXOU7GQIM0w" target="_YHKbkEjNEemLXOU7GQIM0w">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_lUdRYEjPEemLXOU7GQIM0w" name="Effect">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;t6&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "t6" << endl;]]></body>
             </effect>
             <trigger xmi:id="_80-x4EjOEemLXOU7GQIM0w" name="" event="_0J8w4EjNEemLXOU7GQIM0w" port="_KvWs8EjNEemLXOU7GQIM0w"/>
           </transition>
           <transition xmi:id="_Kl6LIEjPEemLXOU7GQIM0w" name="t7" source="_YHKbkEjNEemLXOU7GQIM0w" target="_Kl3H0EjPEemLXOU7GQIM0w">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_MGOuYEjPEemLXOU7GQIM0w" name="Effect">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;t7&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "t7" << endl;]]></body>
             </effect>
             <trigger xmi:id="_ORgTIEjPEemLXOU7GQIM0w" name="" event="_OFBWUEjPEemLXOU7GQIM0w" port="_KvWs8EjNEemLXOU7GQIM0w"/>
           </transition>
           <transition xmi:id="_0pZJIEjREemLXOU7GQIM0w" name="t3" source="_YHKbkEjNEemLXOU7GQIM0w" target="_PfEPQEjLEemLXOU7GQIM0w">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_40iXEEjVEemLXOU7GQIM0w" name="Effect">
-              <language>C++</language>
-              <body>cout &lt;&lt; &quot;t3&quot; &lt;&lt; endl;</body>
+              <language><![CDATA[C++]]></language>
+              <body><![CDATA[cout << "t3" << endl;]]></body>
             </effect>
             <trigger xmi:id="_7lq-wEjREemLXOU7GQIM0w" name="" event="_7ZuNcEjREemLXOU7GQIM0w" port="_KvWs8EjNEemLXOU7GQIM0w"/>
           </transition>
@@ -499,7 +499,10 @@
   <Default:DefaultLanguage xmi:id="_M-An1kjLEemLXOU7GQIM0w" base_Package="_M-AnwEjLEemLXOU7GQIM0w" defaultLanguage="C++"/>
   <UMLRealTime:Capsule xmi:id="_PfHSkEjLEemLXOU7GQIM0w" base_Class="_Pe_WwEjLEemLXOU7GQIM0w"/>
   <CppPropertySets:GeneralCapsuleProperties xmi:id="_FJQckEjMEemLXOU7GQIM0w" base_Class="_Pe_WwEjLEemLXOU7GQIM0w">
-    <implementationPreface xmi:id="_FJQckUjMEemLXOU7GQIM0w" body="#include &lt;iostream>&#xD;&#xA;using namespace std;"/>
+    <implementationPreface xmi:id="_FJQckUjMEemLXOU7GQIM0w">
+      <body><![CDATA[#include <iostream>
+using namespace std;]]></body>
+    </implementationPreface>
   </CppPropertySets:GeneralCapsuleProperties>
   <UMLRealTime:ProtocolContainer xmi:id="_KvMU4EjNEemLXOU7GQIM0w" base_Package="_KvFnMEjNEemLXOU7GQIM0w"/>
   <UMLRealTime:Protocol xmi:id="_KvOxIEjNEemLXOU7GQIM0w" base_Collaboration="_KvM78EjNEemLXOU7GQIM0w"/>
