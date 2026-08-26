@@ -1,0 +1,9 @@
+let tc = TCF.define(TCF.CPP_TRANSFORM);
+tc.sources = [
+    'platform:/resource/PingPong_ClientServer/PingPong.emx#_6Z97cKEeEfGzaZan_Lrn9g',
+];
+tc.compilationMakeType = MakeType.MS_nmake;
+tc.createTargetProject = true;
+tc.targetConfiguration = 'WinT.x86-VisualC++-17.0';
+tc.targetProject = 'PingPong_ClientServer_target';
+tc.topCapsule = 'platform:/resource/PingPong_ClientServer/PingPong.emx#_k3ltMKEgEfGzaZan_Lrn9g';
