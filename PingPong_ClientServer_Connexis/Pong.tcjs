@@ -1,0 +1,14 @@
+let tc = TCF.define(TCF.CPP_TRANSFORM);
+tc.sources = [
+    'platform:/resource/PingPong_ClientServer_Connexis/PingPong.emx#_Q2UXQKEgEfGzaZan_Lrn9g',
+    'platform:/resource/PingPong_ClientServer_Connexis/PingPong.emx#_Vdv1YKEgEfGzaZan_Lrn9g',
+];
+tc.prerequisites = [
+    'platform:/resource/DCS/prebuilt_MSVS-17-x86.tcjs',
+];
+tc.compilationMakeType = MakeType.MS_nmake;
+tc.createTargetProject = true;
+tc.executableName = 'Pong$(EXEC_EXT)';
+tc.targetConfiguration = 'WinT.x86-VisualC++-17.0';
+tc.targetProject = '/Pong_target';
+tc.topCapsule = 'platform:/resource/PingPong_ClientServer_Connexis/PingPong.emx#_d-1ssKEgEfGzaZan_Lrn9g';
